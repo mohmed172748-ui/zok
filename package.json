@@ -1,0 +1,19 @@
+{
+  "name": "zok-store-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord inventory and delivery bot for ZOK STORE",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1",
+    "pg": "^8.16.3"
+  }
+}
